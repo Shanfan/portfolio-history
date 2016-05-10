@@ -1,0 +1,22 @@
+.tinyhand {}
+	
+
+ body{
+	
+	scrollbar-face-color: #CECECE;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #cecece;
+	scrollbar-darkshadow-color: #CECECE;
+	scrollbar-track-color: #CECECE;
+	scrollbar-arrow-color: #ffffff;
+	background-image: url(image/bgpattern1.gif);
+	
+	margin:0;
+	border-width: 0,0,0,0;	
+}
+   
+P{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	}

@@ -1,0 +1,55 @@
+<!-- /* ExoBUD MP(II) 播放面板样式表 */
+
+a,a:link  { color: #a90030; text-decoration: none; }
+a:visited { color: #a90030; text-decoration: none; }
+a:active  { color: #ff0048;  text-decoration: none; }
+a:hover   { color: #ff0048;  text-decoration: none; }
+
+body      { margin-top: 0px; margin-right: 0px; margin-left: 0px; margin-bottom: 0px; background-color:#000000 }
+
+body,td   { font-family: 'Tahoma','Verdana','Arial'; font-size: 8pt; }
+
+/* 显示媒体标题的样式表设定 */
+.title    { border-width: 1px; border-style: solid; border-color: #5b001a; color: #ff3d74;
+            font-family: 'Tahoma','Verdana','Arial'; font-size: 8pt; }
+
+/* 显示时间长度的样式表设定 */
+.time     { border-width: 1px; border-style: solid; border-color: #5b001a; color: #ff3d74;
+            font-family: 'Tahoma','Verdana','Arial'; font-size: 8pt; }
+
+/* 显示播放面板按钮的样式表设定 (请同时参考 exobudset.js 接近档末的设定值) */
+.buttons  { border-width: 1px; border-style: solid; border-color: #ff3d74; color: #ff3d74;
+            font-family: 'Tahoma','Verdana','Arial'; font-size: 8pt; }
+
+/* ８点迷你中文字型，请在有需要时，以 <span lang=zh-tw> 语法一起使用 */
+/* .minichi  { font-family: '新宋体','PMingLiU'; font-size: 8pt; } */
+
+//-->
+<!-- /* ExoBUD MP(II) 播放面板样式表 */
+
+a,a:link  { color: #a90030; text-decoration: none; }
+a:visited { color: #a90030; text-decoration: none; }
+a:active  { color: #ff0048;  text-decoration: none; }
+a:hover   { color: #ff0048;  text-decoration: none; }
+
+body      { margin-top: 0px; margin-right: 0px; margin-left: 0px;
+            margin-bottom: 0px; }
+
+body,td   { font-family: 'Tahoma','Verdana','Arial'; font-size: 8pt; }
+
+/* 显示媒体标题的样式表设定 */
+.title    { border-width: 1px; border-style: solid; border-color:#ff3d74; background:#000000 color: #ffb8cc;
+            font-family: 'Tahoma','Verdana','Arial'; font-size: 8pt; }
+
+/* 显示时间长度的样式表设定 */
+.time     { border-width: 1px; border-style: solid; border-color: #ff3d74; background:#000000  color: #ffb8cc;
+            font-family: 'Tahoma','Verdana','Arial'; font-size: 8pt; }
+
+/* 显示播放面板按钮的样式表设定 (请同时参考 exobudset.js 接近档末的设定值) */
+.buttons  { border-width: 1px; border-style: solid; border-color: #ff3d74; background: #000000 color: #ff3d74;
+            font-family: 'Tahoma','Verdana','Arial'; font-size: 8pt; }
+
+/* ８点迷你中文字型，请在有需要时，以 <span lang=zh-tw> 语法一起使用 */
+/* .minichi  { font-family: '新宋体','PMingLiU'; font-size: 8pt; } */
+
+//-->

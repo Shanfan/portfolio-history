@@ -1,0 +1,21 @@
+
+	
+
+ body{
+	
+	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #444444;
+	
+
+	border-width: 0,0,0,0;	
+}
+   
+P{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	}

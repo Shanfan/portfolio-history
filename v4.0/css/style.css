@@ -1,0 +1,406 @@
+/***************************************
+ StyleSheet written with Less (http://lesscss.org) and
+ compiled by {less}js compiler (http://incident57.com/less/)
+ Developed for Shanfan Huang's website
+ **************************************/
+/* Make HTML 5 elements display block-level for consistent styling */header,
+nav,
+article,
+footer,
+address {
+  display: block;
+}
+/* Define global variables */
+body, html, #container {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Josefin Sans', 'Gill Sans', 'Trebuchet MS', sans-serif;
+  height: 100%;
+  background: fixed repeat url(../img/wall_bg_dark.jpg) #1a1a1a;
+}
+.hide {
+  display: none;
+}
+p {
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #807a71;
+}
+a:hover,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+h1 {
+  font-transform: uppercase;
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+li {
+  line-height: 1.3em;
+}
+/******* Color code for tag cloud ********/
+span {
+  color: #999;
+}
+span.count {
+  font-size: 0.9em;
+  line-height: 1em;
+}
+span.total {
+  font-size: 1.3em;
+}
+span.fashion_color {
+  color: #E39F97;
+}
+span.geometry_color {
+  color: #A6C8D0;
+}
+span.graphic_color {
+  color: #ADD495;
+}
+span.handcraft_color {
+  color: #A6A1DA;
+}
+span.humor_color {
+  color: #94CFBD;
+}
+span.illustration_color {
+  color: #CE678F;
+}
+span.infographic_color {
+  color: #FFDFA3;
+}
+span.scripting_color {
+  color: #AC7AD8;
+}
+span.storytelling_color {
+  color: #5C7E6B;
+}
+span.typography_color {
+  color: #FFD4B5;
+}
+span.hand-drawing_color {
+  color: #CF92A3;
+}
+span.ornament_color {
+  color: #76C569;
+}
+span.comics_color {
+  color: #76C500 ;
+}
+span.nav_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+span.nav_link_clicked {
+  padding: 3px 3px 1px 3px !important;
+  background-color: #000;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+/******* Side Column ******/
+#head {
+  text-transform: uppercase;
+  font-size: .7em;
+  line-height: .6em;
+  color: #807a71;
+  border: none;
+}
+#head:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#sideColumn {
+  position: fixed;
+  width: 170px;
+  color: #807a71;
+  height: 100%;
+}
+#sideColumn .sideCol {
+  padding: 20px 15px;
+  border-top: solid 1px #666;
+}
+#sideColumn .link {
+  padding: 10px 10px 10px 20px;
+  font-size: 1.2em;
+  color: #807a71;
+}
+#sideColumn .link:hover, #sideColumn .link:active {
+  text-decoration: none;
+  background-color: #000;
+  color: #ffc200;
+}
+#sideColumn #tblr {
+  background: url(../img/t_icon.png) no-repeat top left;
+  padding-left: 40px;
+}
+#sideColumn #tblr:hover {
+  background-color: #000;
+  text-decoration: none;
+  color: #ffc200;
+}
+#sideColumn .drag {
+  cursor: pointer;
+  background: url(../img/s_icon.png) no-repeat top left;
+}
+#sideColumn .drag:hover, #sideColumn .drag:active {
+  color: #ffc200;
+  background-color: #000;
+}
+#sideColumn #foot {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+}
+#sideColumn #foot p {
+  font-size: 0.85em;
+  margin: 0.4em 0;
+}
+#sideColumn #foot #cc {
+  border-top: 1px solid #0e0e0e;
+  padding-top: 15px;
+}
+#sideColumn #foot a {
+  color: #ffc200;
+}
+#sideColumn #foot a:active, #sideColumn #foot a:hover {
+  text-decoration: underline;
+}
+#sideColumn #foot #hideCredit {
+  text-align: right;
+  margin-top: 40px;
+}
+/*********** Main Content ************/
+#wrapper {
+  margin-left: 170px;
+  top: 0;
+  padding: 30px;
+}
+.item {
+  float: left;
+  background-color: #000;
+  box-shadow: 0 0 10px #000;
+  width: 230px;
+  padding: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+.item h1 {
+  padding: 0 0 10px;
+  color: #807a71;
+  margin: 10px 0 10px;
+  display: block;
+}
+.item .thumb {
+  position: relative;
+  margin-bottom: -60px;
+}
+.item .thumb img {
+  position: absolute;
+  width: 230px;
+  top: -60px;
+}
+.item .thumb .thumbOverlay {
+  position: absolute;
+  top: -60px;
+  width: 230px;
+  z-index: 990;
+  background: url(../img/slash_ptn.png) !important;
+}
+.item:hover {
+  background: #fff;
+}
+.project {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background: url(../img/label_project.png) top left no-repeat;
+  z-index: 999;
+}
+.goodie {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background: url(../img/label_goodie.png) top left no-repeat;
+  z-index: 999;
+}
+.tutorial {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background: url(../img/label_tutorial.png) top left no-repeat;
+  z-index: 999;
+}
+.single {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background: url(../img/label_single.png) top left no-repeat;
+  z-index: 999;
+}
+.album {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background: url(../img/label_album.png) top left no-repeat;
+  z-index: 999;
+}
+/**** Transitions ****/
+.masoned, .masoned .item {
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+.masoned {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+.masoned .item {
+  -webkit-transition-property: left, top;
+  -moz-transition-property: left, top;
+  -o-transition-property: left, top;
+  transition-property: left, top;
+}
+/************ Display page styling ***************/
+.gallery_walk {
+  float: left;
+}
+.gallery .one {
+  box-shadow: 0 0 30px #000;
+  margin: 100px;
+  border-radius: 5px;
+}
+.gallery .multiple {
+  box-shadow: 0 0 30px #000;
+  margin: 30px;
+  border-radius: 5px;
+}
+.inline_img {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+.text_panel {
+  position: relative;
+  padding: 25px;
+  background-color: #efebe1;
+  box-shadow: 0 0 10px #000;
+  border-radius: 5px;
+}
+.text_panel .goodie, .text_panel .tutorial {
+  position: relative;
+  top: -27px;
+  left: -27px;
+}
+.text_panel h1 {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+.text_panel h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top: 1.2em;
+}
+.text_panel h2.subtitle {
+  text-align: center;
+  margin-top: 5px;
+}
+.text_panel p {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  color: #666;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+.text_panel p.reference {
+  font-size: 0.8em;
+  color: #999;
+}
+.text_panel a {
+  color: #DD8508;
+}
+.text_panel a:hover {
+  text-decoration: underline;
+}
+.text_panel ul {
+  padding-left: 15px;
+  list-style-type: circle;
+  font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+  color: #666;
+}
+.tutorial_txt {
+  width: 550px;
+}
+.tutorial_txt h1 {
+  width: 550px;
+  text-align: center;
+  padding-bottom: 0.5em;
+  background: url(../img/border_x.png) bottom center no-repeat transparent;
+}
+#disqus_thread {
+  width: 220px;
+  position: fixed;
+  top: 30px;
+  left: 820px;
+  padding: 25px;
+  background-color: #efebe1;
+  box-shadow: 0 0 10px #000;
+  border-radius: 5px;
+  font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+#disqus_thread img {
+  padding: 2px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+#disqus_thread p, #disqus_thread h3, #disqus_thread li {
+  font-size: 0.85em;
+  line-height: 1.4em;
+  color: #666;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+#disqus_thread a {
+  color: #DD8508;
+}
+#disqus_thread a:hover {
+  text-decoration: underline;
+}
+.social_function {
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+  background: url(../img/border_x.png) top center no-repeat transparent;
+}
+.social_function table {
+  width: 400px;
+  margin: 0 auto;
+}

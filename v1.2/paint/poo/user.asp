@@ -1,0 +1,25 @@
+<%
+user_name="poo"
+nichen="admin"
+user_ID="31"
+user_password="Ilovemay"
+adminhomepage="../index.asp"
+bbs_name="Tinyhand Painter BBS"
+top_image="top_logos.png"
+top_imglink="http://www.tinyhand.net"
+bbs_list="10"
+upload_yes="yes"
+upload_sizemax="200"
+online_show="yes"
+lockbbs="0"
+fast_re="1"
+max_book="2000"
+max_width=600
+max_height=800
+image_width_out=200
+image_width_index=100
+links="no"
+picmode_width=120
+picmode_hang=5
+picmode_lie=5
+%>

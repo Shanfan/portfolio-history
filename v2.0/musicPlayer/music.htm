@@ -1,0 +1,71 @@
+<html>
+<head>
+<TITLE>MediaMp3</TITLE>
+<META name="description" content="²¥·ÅÆ÷,ÍøÒ³²¥·ÅÆ÷,Æ×ÀÖÊÓÌý(http://www.aboutplayer.com/)">
+<META name=keywords content="²¥·ÅÆ÷,ÍøÒ³²¥·ÅÆ÷,ÔÚÏß²¥·ÅÆ÷,¿í´ø²¥·ÅÆ÷,¿íÆµ²¥·ÅÆ÷,Ã½Ìå²¥·ÅÆ÷£¬player,webplayer,onlineplayer,mediaplayer">
+<link rel="stylesheet" type="text/css" href="exobud.css">
+<script language="JavaScript" src="exobud.js"></script>
+<script language="JavaScript" src="exobudset.js"></script>
+<script language="JavaScript" src="list.js"></script>
+<script language="JScript" for="Exobud" event="openStateChange(sf)">evtOSChg(sf);</script>
+<script language="JScript" for="Exobud" event="playStateChange(ns)">evtPSChg(ns);</script>
+<script language="JScript" for="Exobud" event="error()">evtWmpError();</script>
+<script language="JScript" for="Exobud" event="Buffering(bf)">evtWmpBuff(bf);</script>
+<script language="JavaScript" src="imgchg.js"></script>
+<style type="text/css">
+<!--
+.style1 {color: #FF3366}
+-->
+</style>
+</head>
+<body onLoad="initExobud();" onDragStart="return false" oncontextmenu="return false" onSelectStart="return false" topmargin=0 leftmargin=0 marginwidth=0 marginheight=0>
+<object id="Exobud" classid="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6"
+  type="application/x-oleobject" width="0" height="0"
+  style="position:relative;left:0px;top:0px;width:0px;height:0px;">
+  <param name="autoStart" value="true">
+  <param name="balance" value="0">
+  <param name="currentPosition" value="0">
+  <param name="currentMarker" value="0">
+  <param name="enableContextMenu" value="false">
+  <param name="enableErrorDialogs" value="false">
+  <param name="enabled" value="true">
+  <param name="fullScreen" value="false">
+  <param name="invokeURLs" value="false">
+  <param name="mute" value="false">
+  <param name="playCount" value="1">
+  <param name="rate" value="1">
+  <param name="uiMode" value="none">
+  <param name="volume" value="100">
+</object>
+<table width="100%" border=0 align=left cellpadding=0 cellspacing=0>
+<form name="exobudform">
+  <tr>
+    <td width="30%" height=20 align="left" valign="middle">
+      <div align="left">
+        <input type="text" class="title" id="disp1" value=""  readonly style="height:18;width:200;cursor:crosshair">
+        <input type="button" onfocus=blur() class="time" id="disp2" value="" title="time display (normal/countBack)" onClick="chgTimeFmt()" style="width:70;height:18;cursor:hand">
+      </div></td>
+    <td width="70%" height=20 align="left" valign="middle" nowrap>
+      <input type="button" onfocus=blur() class ="buttons" name="vmute" value="mute" title="mutemode" onClick="wmpMute()" style="height:18;cursor:hand"
+>&nbsp;<input type="button" onfocus=blur() class ="buttons" name="vdn"   value="¨‹" title="volume down" onClick="wmpVolDn()" style="height:18;cursor:hand"
+>&nbsp;<input type="button" onfocus=blur() class ="buttons" name="vup"   value="¡ø" title="volume up" onClick="wmpVolUp()" style="height:18;cursor:hand">
+      <input type="button" onfocus=blur() class ="buttons" name="pmode" value="S/R"   title="playback (S=series R=random)" onClick="chgPMode()" style="height:18;cursor:hand"
+>&nbsp;<input type="button" onfocus=blur() class ="buttons" name="rept"  value="L" title="loop" onClick="chkRept()" style="height:18;cursor:hand">
+      <input type="button" onfocus=blur() class ="buttons" name="prevt" value="¡¶" title="previous track" onClick="playPrev()" style="height:18;cursor:hand"
+>&nbsp;<input type="button" onfocus=blur() class ="buttons" name="pauzt" value="||" title="pause" onClick="wmpPP()" style="height:18;cursor:hand"
+>&nbsp;<input type="button" onfocus=blur() class ="buttons" name="stopt" value="¡ö" title="stop" onClick="wmpStop()" style="height:18;cursor:hand"
+>&nbsp;<input type="button" onfocus=blur() class ="buttons" name="playt" value="PLAY" title="play" onClick="startExobud()" style="height:18;cursor:hand">
+<input type="button" onfocus=blur() class ="buttons" name="nextt" value="¡·" title="nest track" onClick="playNext()" style="height:18;cursor:hand">
+      <input type="button" onfocus=blur() class ="buttons" name="plist" value="playlist" title="show playlist" onClick="openPlist()" style="height:18;cursor:hand">      
+      <span class="style1"> musicPlayer powered by <a href="http://www.aboutplayer.com/" target="_blank" class="style1">http://www.aboutplayer.com/</a>
+      </span> </td>
+  </tr>
+  <tr>
+    <td colspan=3 height=0 align="center" valign="middle">
+      <div id="capText" style="width:100%;height:20;color:white;background-color:#555555;padding-top:3px;padding-left:5px;display:none"
+>ExoBUD MP(II) ×ÖÄ»ÏÔÊ¾ÏµÍ³(SMI)</div></td>   
+  </tr>
+</form>
+</table>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleviewerGallery maxImageWidth="600" maxImageHeight="550" textColor="0x333333" frameColor="0xcccccc" frameWidth="0" stagePadding="0" navPadding="40" thumbnailColumns="8" thumbnailRows="1" navPosition="top" vAlign="top" hAlign="center" title="" enableRightClickOpen="false" backgroundImagePath="" imagePath="" thumbPath="">
+<image>
+	<filename>001_liteon_1.jpg</filename>
+	<caption>TreeTell - Immense Touch Concept Design for Liteon Industiral Design Award, teamwork with Huang Zhe</caption>
+</image>
+<image>
+	<filename>002_liteon_2.jpg</filename>
+	<caption>TreeTell - Immense Touch Concept Design for Liteon Industiral Design Award, teamwork with Huang Zhe</caption>
+</image>
+<image>
+	<filename>003_liteon_3.jpg</filename>
+	<caption>TreeTell - Immense Touch Concept Design for Liteon Industiral Design Award, teamwork with Huang Zhe</caption>
+</image>
+<image>
+	<filename>004_d2.jpg</filename>
+	<caption>TreeTell - the model</caption>
+</image>
+<image>
+	<filename>005_e3.jpg</filename>
+	<caption>TreeTell - Behind the Scene</caption>
+</image>
+<image>
+	<filename>006_choo01.jpg</filename>
+	<caption>Office Accessory - the Puncher</caption>
+</image>
+<image>
+	<filename>007_choo02.jpg</filename>
+	<caption>Office Accessory - the Puncher</caption>
+</image>
+<image>
+	<filename>008_choo03.jpg</filename>
+	<caption>Office Accessory - the Puncher</caption>
+</image>
+<image>
+	<filename>009_roro.jpg</filename>
+	<caption>Office Accessory - the Tape Cutter</caption>
+</image>
+<image>
+	<filename>010_roro_sketch_small.jpg</filename>
+	<caption>Office Accessory - the Tape Cutter, usability sketch</caption>
+</image>
+<image>
+	<filename>011_daisy.jpg</filename>
+	<caption>Office Accessory - Daisy the Lamp</caption>
+</image>
+<image>
+	<filename>012_sketch.jpg</filename>
+	<caption>Office Accessory - Daisy the Lamp, inspirations</caption>
+</image>
+<image>
+	<filename>013_shelic.jpg</filename>
+	<caption>Digital Camera Design for Aigo</caption>
+</image>
+<image>
+	<filename>014_song_02.jpg</filename>
+	<caption>Office Furniture Brand</caption>
+</image>
+</simpleviewerGallery>

@@ -1,0 +1,41 @@
+/* CSS Document */
+
+
+
+a,a:link  { color: #ff3d74; text-decoration: none; }
+a:visited { color: #ff3d74; text-decoration: none; }
+a:active  { color: #ff3d74;  text-decoration: none;  background-color:#000000}
+a:hover   { color: #ff3d74;  text-decoration: none;  background-color:#000000}
+
+body      { margin-top:2px;  margin-left: 2px;
+
+        scrollbar-face-color:#ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #ffffff;
+
+            }
+
+body,td   { font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 7.5pt; color:#ff3d74}
+
+/* tile */
+.title    {border-width: 1px; border-style: solid; border-color:#ff3d74; background:#000000; color: #ff3d74;
+            font-family: 'Verdana'; font-size: 9pt; font-weight:bold }
+
+/* description */
+.description     { border-width: 1px; border-style:dotted; border-color: #ff3d74;
+                   
+                    background:#ffffff;  color: #666666;
+                  font-family:'Verdana'; font-size: 8.5pt; }
+
+/* pic*/
+.pic    {
+border-style:solid;
+border-width: 1px;
+border-color:#000000;
+background-image:url(images/bg.gif);
+}
+

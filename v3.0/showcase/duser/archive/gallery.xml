@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleviewerGallery maxImageWidth="450" maxImageHeight="350" textColor="0xffffff" frameColor="0xffffff" frameWidth="1" stagePadding="10" navPadding="10" thumbnailColumns="5" thumbnailRows="2" navPosition="right" vAlign="top" hAlign="left" title="Process Archive" enableRightClickOpen="false" backgroundImagePath="" imagePath="" thumbPath="">
+<image>
+	<filename>01_briefing.jpg</filename>
+	<caption>Design Briefing
+	Possible directions within given technology condition</caption>
+</image>
+<image>
+	<filename>02_market_analysis.jpg</filename>
+	<caption>Market Analysis
+	Existing products and the overall industry</caption>
+</image>
+<image>
+	<filename>03_target_a.jpg</filename>
+	<caption>Targeting Customer - Childre</caption>
+</image>
+<image>
+	<filename>04_target_b.jpg</filename>
+	<caption>Targeting Customer - Parents</caption>
+</image>
+<image>
+	<filename>05_scrapboard.jpg</filename>
+	<caption>Moodboard - visual inspiration</caption>
+</image>
+<image>
+	<filename>06_001.jpg</filename>
+	<caption>Concept Sketch
+	Creating characters which can form a storyline that supports the product concept</caption>
+</image>
+<image>
+	<filename>07_002.jpg</filename>
+	<caption>Concept Sketch
+	Creating a storyline background that can be extended in the future</caption>
+</image>
+<image>
+	<filename>08_prototype.jpg</filename>
+	<caption>The Prototype
+	Including toy-product modeling and photonic pannel programming</caption>
+</image>
+</simpleviewerGallery>

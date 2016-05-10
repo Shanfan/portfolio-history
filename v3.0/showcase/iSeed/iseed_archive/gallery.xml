@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleviewerGallery maxImageWidth="450" maxImageHeight="350" textColor="0xffffff" frameColor="0xffffff" frameWidth="1" stagePadding="10" navPadding="10" thumbnailColumns="5" thumbnailRows="2" navPosition="right" vAlign="top" hAlign="left" title="Process Archive" enableRightClickOpen="false" backgroundImagePath="" imagePath="" thumbPath="">
+<image>
+	<filename>shufflesome2.jpg</filename>
+	<caption>Weak Signal: Fan-created iPod Mini Skin</caption>
+</image>
+<image>
+	<filename>SNV30227.jpg</filename>
+	<caption>Brainstorming after Internal/External Analysis</caption>
+</image>
+<image>
+	<filename>Overview Apple.jpg</filename>
+	<caption>Analysis on Product Portfolio under Apple Brand</caption>
+</image>
+<image>
+	<filename>Customization Apple 2.jpg</filename>
+	<caption>Customization Apple
+	Internal: Product and Service Flexibility</caption>
+</image>
+<image>
+	<filename>Customization Apple 3.jpg</filename>
+	<caption>Customization Apple
+	External: Weak Signals from Consumer Trends Observation</caption>
+</image>
+<image>
+	<filename>apple1page_charing_creating copy.jpg</filename>
+	<caption>Early Concept: Sharing and Creating</caption>
+</image>
+<image>
+	<filename>apple1page_usersevolve.jpg</filename>
+	<caption>Early Concept: Internet Service</caption>
+</image>
+<image>
+	<filename>costs_page1_users.jpg</filename>
+	<caption>Early Concept: Preliminary Pricing</caption>
+</image>
+<image>
+	<filename>impact predition.jpg</filename>
+	<caption>Impact Predition of the product platform and web service</caption>
+</image>
+
+
+</simpleviewerGallery>

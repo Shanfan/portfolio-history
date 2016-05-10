@@ -1,0 +1,5 @@
+<info>
+	<infoitem key="UD_book" value="name:book_ID;datatype:INTEGER,name:name;datatype:LONGCHAR,name:pass;datatype:LONGCHAR,name:oicq;datatype:LONGCHAR,name:homepage;datatype:LONGCHAR,name:title;datatype:LONGCHAR,name:contents;datatype:LONGCHAR,name:toptime;datatype:DATETIME,name:posttime;datatype:DATETIME,name:picname;datatype:LONGCHAR,name:pchname;datatype:LONGCHAR,name:use_tool;datatype:LONGCHAR,name:pic_W;datatype:INTEGER,name:Pic_H;datatype:INTEGER,name:user_ID;datatype:INTEGER,name:admin_name;datatype:LONGCHAR,name:goodtitle;datatype:LONGCHAR" />
+	<infoitem key="UD_jump" value="name:ID;datatype:INTEGER,name:goname;datatype:LONGCHAR,name:url;datatype:LONGCHAR" />
+	<infoitem key="UD_re_book" value="name:re_ID;datatype:INTEGER,name:name;datatype:LONGCHAR,name:re_content;datatype:LONGCHAR,name:OICQ;datatype:LONGCHAR,name:homepage;datatype:LONGCHAR,name:Book_ID;datatype:INTEGER,name:post_time;datatype:DATETIME" />
+</info>

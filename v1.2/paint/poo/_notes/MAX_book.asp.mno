@@ -1,0 +1,3 @@
+<info>
+	<infoitem key="UD_book" value="name:book_ID;datatype:INTEGER,name:picname;datatype:LONGCHAR,name:pchname;datatype:LONGCHAR" />
+</info>

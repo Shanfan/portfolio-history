@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleviewerGallery maxImageWidth="450" maxImageHeight="350" textColor="0xffffff" frameColor="0xffffff" frameWidth="1" stagePadding="10" navPadding="10" thumbnailColumns="5" thumbnailRows="2" navPosition="right" vAlign="top" hAlign="left" title="Process Archive" enableRightClickOpen="false" backgroundImagePath="" imagePath="" thumbPath="">
+<image>
+	<filename>fuzzy_front_end_2.jpg</filename>
+	<caption>Fuzzy Front End I
+	This is an early attempt to refine the logic and define our partners' needs.</caption>
+</image>
+<image>
+	<filename>fuzzy_front_end_1.jpg</filename>
+	<caption>Fuzzy Front End II
+	Attempt to clarify how our capacity could facilitate WHO's communication efficiency.</caption>
+</image>
+<image>
+	<filename>analyse_who_web_usage.jpg</filename>
+	<caption>Analysis on WHO Online Media Usage
+	1. Headquarter site(left): conservative information structure; statistics hard to locate.	2. Regional site(right): photo slideshow; interactive map.</caption>
+</image>
+<image>
+	<filename>case_study.jpg</filename>
+	<caption>Unavoidable User Behaviorin
+	Although WHO is restrictive on any publication, emerging user behavior pushes its regulation.</caption>
+</image>
+<image>
+	<filename>benchmarking copy.jpg</filename>
+	<caption>Benchmarking on Health Crises Related Services</caption>
+</image>
+<image>
+	<filename>help_understand_web2.jpg</filename>
+	<caption>Help WHO Understand Web 2.0 and Its Impact</caption>
+</image>
+<image>
+	<filename>meeting.jpg</filename>
+	<caption>Meetings with Our Partners in WHO-HAC
+	A tight-scheduled day trip to Geneva helped us validate our concepts and better understand their problems and needs.
+	</caption>
+</image>
+<image>
+	<filename>concept sketch.jpg</filename>
+	<caption>Concept Sketch</caption>
+</image>
+<image>
+	<filename>interface_mockup.jpg</filename>
+	<caption>Interface Paper Mockup</caption>
+</image>
+<image>
+	<filename>html_mockup.jpg</filename>
+	<caption>HTML Mockup</caption>
+</image>
+</simpleviewerGallery>

@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background:#FFFFFF url(img/theme_5.jpg) top center no-repeat;
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+	
+}
+
+#header {
+	padding:0px;
+	margin-top:0px;
+	text-align:left; 
+	width:1000px; 
+	height:45px;
+}
+
+#tagline {
+	margin-top: 20px;
+	margin-left: 10px;
+	font: "Courier New", Courier, monospace;
+	font-size:14px;
+	color:#A4C11A;
+	float:left;
+	}
+
+#logo {
+	margin:0;
+	padding:0;
+	float:left;
+	}
+
+#wrapper {
+	margin-top: 310px;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	height: auto;
+	}
+	
+#submit {
+	padding:20px;
+	width:460px;
+	height: 100px;
+	border: #A4C11A solid 1px;
+	background: #f0ffa2;
+	}
+
+#smiley {
+	margin-top:10px;
+	background:url(img/smiley_bg.png) no-repeat center;
+	padding:2px;
+	width:108px;
+	height:36px;
+	float:right;
+	}
+	
+.icon32 {
+	float:left;
+	padding: 0px;
+	width:32px;
+	height:32px;
+	margin:2px;
+	}

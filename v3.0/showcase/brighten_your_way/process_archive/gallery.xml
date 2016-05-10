@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleviewerGallery maxImageWidth="450" maxImageHeight="350" textColor="0xffffff" frameColor="0xffffff" frameWidth="1" stagePadding="10" navPadding="10" thumbnailColumns="5" thumbnailRows="2" navPosition="right" vAlign="top" hAlign="left" title="Process Archive" enableRightClickOpen="false" backgroundImagePath="" imagePath="" thumbPath="">
+<image>
+	<filename>001_brand_analysis.jpg</filename>
+	<caption>Brand Analysis
+	- TeliaSonera family tree explains its brand image varies with regions and countries.</caption>
+</image>
+<image>
+	<filename>002_consumer_trend_research.jpg</filename>
+	<caption>Consumer Trend Research 
+	- mainly focus on experience economy and emerging marketing tactics
+	</caption>
+</image>
+<image>
+	<filename>003_user_study_biz_lounge.jpg</filename>
+	<caption>User Study 1 - Interview
+	Interviews were conducted in the business class lounge to find out our target users' expections at the airport.</caption>
+</image>
+<image>
+	<filename>004_user_study_on_the_phone.jpg</filename>
+	<caption>User Study 2 - Observation
+	Our target users were observed to be constantly on the phone.</caption>
+</image>
+<image>
+	<filename>005_user_study_economic_class.jpg</filename>
+	<caption>User Study 3 - Problem Identification
+	While business-class lounges have already satisfied most of business traveler's needs, business travelers who fly with economic class are disastified in the public waiting area.
+	</caption>
+</image>
+<image>
+	<filename>006_direcition_exploring.jpg</filename>
+	<caption>Direction Exploring</caption>
+</image>
+<image>
+	<filename>007_sketch1.jpg</filename>
+	<caption>Concepting</caption>
+</image>
+<!-- 
+<image>
+	<filename>008_sketch2.jpg</filename>
+	<caption>Sketch</caption>
+</image>
+-->
+<image>
+	<filename>009_service_mock-up.jpg</filename>
+	<caption>Service Offering Mockup</caption>
+</image>
+<!-- 
+<image>
+	<filename>010_product_design.jpg</filename>
+	<caption>Product Design</caption>
+</image>-->
+<image>
+	<filename>011_user_experience.jpg</filename>
+	<caption>User Experience & Value Proposition</caption>
+</image>
+</simpleviewerGallery>

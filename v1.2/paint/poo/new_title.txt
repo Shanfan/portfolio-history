@@ -1,0 +1,3 @@
+<%
+news_title="Poo painter 重要通知，大家请看~~"
+%>

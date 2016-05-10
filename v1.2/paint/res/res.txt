@@ -1,0 +1,136 @@
+#Please make a language resource by UTF-8 format.
+
+window_0=笔刷
+window_1=编辑
+window_2=尺寸色板
+window_3=笔触工具
+window_4=颜色遮罩	
+window_5=工具
+window_6=图层
+window_7=设置
+
+
+penm_0=正常
+penm_1=水彩
+penm_2=画笔
+penm_3=纸巾
+
+mask_0=遮罩
+mask_1=开
+mask_2=Reverse
+
+option_0=全屏画布
+option_1=Turn Window
+option_author=打开 Shi-chan's 
+
+
+
+
+t000=铅笔
+t001=水彩
+t002=画笔
+t003=钢笔
+t004=纸巾
+
+t010=加亮
+t011=加深
+t012=模糊
+t013=文字
+
+t020=复制
+t021=左右反转
+t022=垂直反转
+t023=顺转
+
+t030=橡皮
+t031=水彩橡皮
+t032=矩形删除
+t033=擦除全部
+
+t040=物质
+t041=网点
+t042=纹理
+t0420=ゼブラ縦
+t0421=ゼブラ横
+t0422=縞縦
+t0423=縞横
+t0424=縦線
+t0425=横線
+t0426=太縦線
+t0427=太横線
+t0428=布(薄)右上
+t0429=布（薄）左上
+t04210=布（濃）右上
+t04211=布（濃）左上
+t04212=Small Dots
+t04213=Large Dots
+t04214=Medium Dots
+t04215=チェッカーS
+t04216=チェッカーM
+t04217=チェッカーL
+t04218=更紗（濃）
+t04219=更紗（薄）
+t04220=豹柄（濃）
+t04221=豹柄（薄）
+t04222=岩（濃）
+t04223=岩（薄）
+t04224=網目（濃）
+t04225=網目（薄）
+t04226=砂目
+t04227=樹氷
+t04228=ヘビ柄
+t04229=方眼
+t04230=タータンチェック
+
+t050=自由线
+t051=直线
+t052=Bezier
+t053=Solid Rect
+t054=Rect
+t055=Solid Oval
+t056=Oval
+t057=填充
+
+t060=正常
+t061=遮罩
+t062=Reverse Mask
+
+
+Layer=图层
+NoEffect=NoEffect
+Combine=Combine
+CombineQ=Combine?
+Swap=Swap
+SwapQ=Swap？
+CopyDel=复制&删除
+CopyDelQ1=Copy?
+Undo data get initialized after a combined.
+CopyDelQ2=Del?
+Undo data get initialized after a combined.
+
+kakunin_0=需要访问 Shi-chan's 网站吗？
+
+kakunin_1=你要清空画布上的所有内容吗？
+
+yes=是
+no=否
+
+sUpload=保存
+
+sF=全屏
+sRedo=重做
+sUndo=撤消
+sFill=填充
+
+Restore=需要加载刚才的图象数据吗?
+IsSave=你真的要提交涂鸦作品吗？
+TryAgain= 
+请再尝试保存一次，
+
+Send0=    正在处理数据    
+EncJPEG=输出格式 JPEG...
+EncPNG=画笔 PNG...
+
+IsWindowView=选择全屏模式?
+IsIndependent=打开全屏模式的画板？
+IsPageView=返回原始模式？

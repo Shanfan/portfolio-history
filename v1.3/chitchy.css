@@ -1,0 +1,14 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	color: #666666;
+	background-color: #F4FFDD;
+    
+	scrollbar-face-color: #F4FFDD;
+	scrollbar-shadow-color: #F4FFDD;
+	scrollbar-highlight-color: #F4FFDD;
+	scrollbar-3dlight-color: #F4FFDD;
+	scrollbar-darkshadow-color: #F4FFDD;
+	scrollbar-track-color: #F4FFDD;
+	scrollbar-arrow-color: ff9900;
+}

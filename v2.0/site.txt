@@ -1,0 +1,8 @@
+www.chitchy.com
+w7130.s2.freedns.name
+
+system: win2k
+Ip: 222.215.152.10
+acount: webmaster@chitchy.com
+password: 
+

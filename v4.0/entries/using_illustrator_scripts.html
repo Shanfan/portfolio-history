@@ -1,0 +1,212 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <!-- Embed Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Using Illustrator Scripts Tutorial</title>
+  <meta name="description" content="Shanfan Huang, design, graphic, fashion, illustration">
+  <meta name="author" content="Shanfan Huang">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <link rel="shortcut icon" href="../favicon.gif" />
+
+
+  <link rel="stylesheet" href="../css/reset.css">
+    
+  <!-- CSS: implied media="all" -->
+  <link rel="stylesheet" href="../css/style.css?v=2">
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="../js/libs/modernizr-1.7.min.js"></script>
+
+
+<!-- Google Analytics -->
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10548761-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+
+
+
+
+<body>
+  
+  <!-- Social functions -->
+
+<!-- scripts for social functions -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+    
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    
+    <script type="text/javascript" src="http://platform.tumblr.com/v1/share.js"></script>
+
+<!-- End of Social Functions-->
+
+  <div id="container">
+    <div id="sideColumn">
+      <a href="../index.html">
+        <div id="head" class="sideCol">
+          <img src="../img/shanfan_huang_logo.png" title="Shanfan Huang"/>
+          <p>Design. Create. Play.</p>
+        </div>
+      </a>
+      
+      <div id="foot">
+        <p> (cc)2011 Shanfan Huang</p>
+        <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" title="Attribute-NonCommercial-ShareAlike" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a></p>
+        <p>Disclaimer: This webpage is not tested in IE.</p> 
+
+      </div>
+  </div>
+    <!-- end of side column -->
+    
+    <!-- Main Content -->
+    <div id="wrapper">
+
+
+        
+        <div class="text_panel tutorial_txt">
+          <div class="tutorial"></div>
+          <h1>using illustrator scripts</h1>
+            
+        <div class="slideThumb" style="margin-top: 0px;">
+          <img class="inline_img" width= 400 height=400 src="img_ori/differential-02-2.jpg" />
+          <img class="inline_img" width= 400 height=400 src="img_ori/differential-02.jpg" />
+          <img class="inline_img" width= 400 height=400 src="img_ori/differential-01-1.jpg" />
+          <img class="inline_img" width= 400 height=400 src="img_ori/differential-01.jpg" />
+        </div>
+                    
+
+        <p style="margin-top: 480px;">This post <a href="http://hubpages.com/hub/Kolam_-_The_Traditional_Floor_Drawing_of_South_India" target="_blank">Kolam, The Traditional Floor Drawing from South India</a> intrigues me a lot. As the author thoroughly introduced several ways to do a freehand drawing with a certain grid systems, I would like to share how to create one of the hexagonal patterns using Adobe Illustrator and its scripts, in just a few minutes.</p>
+
+<h2>1. Install Hiroyuki's script package</h2>
+
+<p>First of all I highly recommend <a href="http://park12.wakwak.com/~shp/lc/et/en_aics_script.html" target="_blank">Hiroyuki Sato's scripts for AI</a>. Hiroyuki has created this package of scripts to solve day-to-day graphic problems that saved me loads of time. Take your time check it out.</p>
+<p>In this tutorial I'll show you how to apply two of his scripts to achieve our goal.</p>
+<p>So after you have downloaded Hiroyuki's package, placed the unzipped folder in your /Adobe Illustrator CS*/Presets/Scripts folder, you're ready to open Illustrator and create a new document. Under File/Scripts menu you'll see Hiroyuki's script folder.</p>
+
+<h2>2. Create a hexagonal grid.</h2>
+<p>The basic grid is three hexagons with their centers aligned. Let's create the first hexagon and call it "H1". Double the width &amp; height of H1 we get H2. Triple them we get H3.</p>
+<p>With H2 selected, go to Hiroyuki's scripts, choose "Divide (Length)". When a dialogue pops out, type "2". You'll see each side of this hexagon is divided into 2 sections with one anchor point.</p>
+<p>Similarly, choose H3 and divide its sides by 3.</p>
+<p>Group the hexagons. Our grid system is readily defined by all the anchor points on the hexagons, as shown below.</p>
+<a href="https://lh4.googleusercontent.com/-k7coG-HHtMw/TiyfxbeqboI/AAAAAAAABWI/7XgeMvJ4KM8/s800/Screen%252520Shot%2525202011-07-24%252520at%2525205.45.51%252520PM.png" target="_blank"><img class="inline_img" width=500 height=335 src="https://lh4.googleusercontent.com/-k7coG-HHtMw/TiyfxbeqboI/AAAAAAAABWI/7XgeMvJ4KM8/s800/Screen%252520Shot%2525202011-07-24%252520at%2525205.45.51%252520PM.png" /></a>
+<h2>3. Duplicate an object to the selected anchor points.</h2>
+<p>Draw a little circle in the center of the grid.</p>
+<p>With both the circle and the grid selected, go the Hiroyuki's scripts, apply "Dup At Selected Anchors".</p>
+<a href="https://lh3.googleusercontent.com/-uqJVblR0Fng/Tiyfxd3RWdI/AAAAAAAABWM/91tARIzfFxA/s800/Screen%252520Shot%2525202011-07-24%252520at%2525205.49.54%252520PM.png" target="_blank"><img class="inline_img" width=500  height=340 src="https://lh3.googleusercontent.com/-uqJVblR0Fng/Tiyfxd3RWdI/AAAAAAAABWM/91tARIzfFxA/s800/Screen%252520Shot%2525202011-07-24%252520at%2525205.49.54%252520PM.png" /></a>
+<p>Then create a hexagon which will become our pattern, as 2/3 of the width&amp; height of H1.</p>
+<p><img class="inline_img" src="https://lh6.googleusercontent.com/-IcxrLiO50P0/TiyfxbWU6BI/AAAAAAAABWE/HNkdiuIiGu0/s400/Screen%252520Shot%2525202011-07-24%252520at%2525205.51.30%252520PM.png" /></p>
+<p>Same, duplicate the hexagon to all the anchor points of the gird.</p>
+<p>Turn off the visibility of the grid.</p>
+
+<h2>4. Clean up using Shape Builder.</h2>
+<p>We're almost there.</p>
+<p>Select all the hexagons, call out my best friend <b>Shape Builder</b> (came with AI CS5) by "Shift+M". Holding down "Option/Alt" key, you'll see the "+" beside the cursor turning into a "-", meaning you can subtract shapes now. So go ahead and remove all the outer areas as shown below.</p>
+<p><img class="inline_img" src="https://lh4.googleusercontent.com/-VCLc7SnZvuE/Tiyfxr6BvpI/AAAAAAAABWQ/1gIY5npaK58/s400/Screen%252520Shot%2525202011-07-24%252520at%2525205.52.36%252520PM.png" /></p>
+<p>You can remove some extra circles, add some colors, change the line weight and so on. The main work is done by far. Hope you enjoyed.</p>
+<p>On the last note, there are a lot more to explore, either in <a href="http://www.ikolam.com/kolam" title="Collection of Kolam works">the world of Kolam</a>&nbsp;or in&nbsp;<a href="http://lines-about-to-be-generated.blogspot.com/" title="Hiroyuki's blog">Javascript for Illustrator</a>. If you found something interesting, don't forget to share it!</p>
+
+
+<!-- Share buttons -->
+<div class="social_function">
+  <table>
+      <tr>
+        <td>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="chitchy" data-lang="en">Tweet</a>
+        </td>
+        <td>
+          <g:plusone size="medium"></g:plusone>
+        </td>
+        <td>
+          <iframe src="//www.facebook.com/plugins/like.php?href&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:20px;" allowTransparency="true"></iframe>
+        </td>
+        <td>
+          <a href="http://www.tumblr.com/share" title="Share on Tumblr"><img src="http://platform.tumblr.com/v1/share_1.png" /></a>
+        </td>
+      </tr>
+  </table>
+</div> <!-- End of Share -->
+                    
+        </div>
+        
+        
+
+      </div>
+
+  <!-- Disqus       --> 
+<div id="disqus_thread"><a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'shanfanhuang'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<!-- End of Disqus -->
+
+  
+    </div> <!--! end of #container -->
+
+
+
+
+
+  
+
+
+<!-- JavaScript at the bottom for fast page loading -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+  <!-- scripts concatenated and minified via ant build script -->
+  <script src="../js/plugins.js"></script>
+  <script src="../js/scripts.js"></script>
+
+  <!-- end scripts-->
+
+
+  <!--[if lt IE 7 ]>
+    <script src="../js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+  <![endif]-->
+
+</body>
+</html>

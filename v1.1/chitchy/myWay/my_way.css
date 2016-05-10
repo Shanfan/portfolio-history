@@ -1,0 +1,16 @@
+body {
+	color: #999999;
+	scrollbar-face-color:   #ffffff;
+	scrollbar-shadow-color:  #134159;
+	scrollbar-highlight-color:  #134159;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-track-color:  #ffffff;
+	scrollbar-arrow-color:  #134159;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.5pt;
+	
+	
+}

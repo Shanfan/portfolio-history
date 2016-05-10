@@ -1,0 +1,41 @@
+
+17.Jan
+left_frame added
+a "skip" is added to index.html
+background pattern image changed to gif & css changed
+-----------------------------------------------------------------
+16.Jan
+myTinyhand's top & bottome.htm refreshed
+friends' links finished
+loadingbar has big problem
+decide to have a omni_frame
+--------------------------------------------------------------------
+15.Jan
+favourates' top & bottome finished
+------------------------------------------------------------------
+14.Jan
+added some new photoes to chitchy/myWay/zhejiang/image/xitang
+         xitang.htm refreshed
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+13.Jan
+myTinyhand has been completed
+calendar refreshed.
+ready to upload.
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+10.Jan
+chitchy/myWay/image   all resized, for the sake of reducing document size
+
+--------------------------------------------------------------------
+9.Jan
+Zhejiang.htm,taishun/hangzhou/xitang.htm completed
+jan_calendar.swf refreshed (one diary added)
+ready to upload
+-------------------------------------------------------------------
+7, Jan
+link_logo completed
+jan_calendar.swf refreshed (one diary added)
+chitchy/chitchy.swf refreshed
+background pattern refreshed
+my_way's main page is going on....
